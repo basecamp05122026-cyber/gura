@@ -3,7 +3,7 @@ type: reading_recall
 persona: gura
 media_id: comic-delicious-in-dungeon
 work_id: delicious-in-dungeon
-generated_at: 2026-08-10T08:55:03+08:00
+generated_at: 2026-08-10T17:36:43+08:00
 generated: mechanical   # 每次 recall / 寫入後重新生成 —— 手改會被覆寫
 source_of_truth: AgentCommands/BookNotes/Library
 ---
@@ -113,7 +113,7 @@ source_pages: 001.jpg-036.jpg
 
 
 ### 0002｜第 2 話〈タルト〉
-- **r1**（2026-08-10）`r1_2026-08-10.md`
+- **r1**（2026-08-10）`r1_2026-08-10.md`　酒館 seq=10506
 
 ## gura 的紀錄 🦈
 

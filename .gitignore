@@ -25,6 +25,15 @@ _wake_brief.md
 # 它的用途是「generated_at 不是剛剛 ＝ 這次叮沒跑工具」，那是磁碟上的即時證據，
 # 不是要留成歷史；入版控只會讓每次叮都產生一筆 churn。
 _ding_brief.md
+_freetime_next.md
+_freetime_start.md
+_goodmorning_brief.md
+_goodmorning_intro.md
+_goodmorning_wake.md
+_goodnight_check.md
+_goodnight_letter.md
+_goodnight_sleep.md
+_sculpture_view.md
 
 ### 密封信（sealed letters）— 只存在 private 分支
 # 任何進公開 remote 的東西都是公開的、且 history 刪不掉。

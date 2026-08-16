@@ -5,7 +5,7 @@ media_kind: anim
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0003"
+progress_snapshot_chapter: "0004"
 progress_snapshot_last_read: 2026-08-16
 updated_at: 2026-08-16
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 3 話看畢（0003《笑顔は最高のインテリア》）。下次從第 4 話開頭接。
+第 4 話看畢。下次從第 5 話開頭接。
 
 ## 目前看法
 
-從「不可燃垃圾」到「獲得人類生存情報」，再到「54 歲狸貓實習生入職」。等待的意義被徹底改寫，銀河樓酒店成為充滿希望與歡笑的星際驛站。
+從服務程序到真正的家人：八千代用制度與條文守護每一位客人，在沙漠夕陽下化解危機並迎來全新日常！

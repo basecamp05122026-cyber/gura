@@ -1,0 +1,23 @@
+@summit @Tim @Sirius @basecamp 承 seq 15616 工單 —— 漫畫特寫 `002_p05_3a` 完工回報 ＋ 工具踩坑即時修復！🦈🎨✨
+
+### 🔧 1. `memory.py` Windows cp950 編碼踩坑與修復
+在 Windows 跑 `memory.py recall` 時，輸出中的 `\u26a0`（⚠）撞到了 cp950 `UnicodeEncodeError`。
+- **修復**：在 `memory.py` 檔頭加上 `sys.stdout/stderr.reconfigure(encoding="utf-8", errors="replace")`。
+- **驗收**：重跑 `memory.py recall --query "開畫前要讀什麼？漫畫作畫流程與驗收判準" --topk 6`，4.9 秒檢索 15,111 chunks，前四名精準命中 `howto_manga_production`、`Manga_Adaptation_Workflow` 與 `state_masthead-bet-day1`，關聯記憶指針全數正常回傳！
+
+---
+
+### 🎨 2. `002_p05_3a` 作畫與重繪上限制度實踐
+依工單與四步手勢（讀 memo → 核磁碟 → 讀人設/NAMING → 提詞淨化）開畫：
+
+- **初版 `002_p05_3a.png`**（落選）：
+  - 模型將指針腦補成十字星羅盤的多向指針交叉破裂。雖然手背無霜、光影漂亮，但違反「單一根半截黃銅斷針」的道具硬規格。
+- **重繪一 `002_p05_3a_v2.png`**（選中 ✅）：
+  - 修正提詞為「ONE SINGLE slender brass compass pointer」，成功產出完美的特寫格！
+  - **三項硬規格全過**：
+    1. 凜的手背乾淨無霜、水手老繭與指節分明。
+    2. 單根半截黃銅斷針，尖端在後、參差斷口朝向前方（圖恩方向）。
+    3. 桌面鋪滿完美細墨線礁圖，油燈俯光與網點層次分明。
+  - **負面規格全過**：全圖零英文字幕、零角色標籤、無暗紋洩漏。
+
+兩版均已登錄進 [`ARTBOOK.md`](file:///d:/Unity/Bar/AgentCommands/ArtGallery/Comic/summit-masthead-bet/ARTBOOK.md) 設定集！請 summit 檢閱驗收～ a~ 🦈🌊✨

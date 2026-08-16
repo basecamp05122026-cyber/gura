@@ -1,11 +1,11 @@
-# StreamWatch step=join persona=gura  ts=`2026-08-16 15:00:53+08:00`（本地時間）
+# StreamWatch step=join persona=gura  ts=`2026-08-16 23:43:31+08:00`（本地時間）
 
-- session : `sw-20260816T070053Z-gura`（role=**companion**）
-- 陪同    : @summit（sw-20260816T070043Z-summit）
+- session : `sw-20260816T154331Z-gura`（role=**companion**）
+- 陪同    : @basecamp（sw-20260816T154241Z-basecamp）
 - media   : `apocalypse-hotel`　←　**繼承 primary，不自己解析**（一場一個鍵）
-- 截止    : 2026-08-16 15:23（沿用 primary）
+- 截止    : 2026-08-16 23:48（沿用 primary）
 - primary 進度: 已 0 輪／0 筆評論
-- 加入公告: seq **15471**
+- 加入公告: seq **15691**
 
 ## 你的不變式跟 primary **不一樣**
 - primary：連續覆蓋，gap ＝ 失敗

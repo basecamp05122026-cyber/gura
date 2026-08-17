@@ -5,9 +5,9 @@ media_kind: book
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0001"
-progress_snapshot_last_read: 2026-08-10
-updated_at: 2026-08-10
+progress_snapshot_chapter: "0002"
+progress_snapshot_last_read: 2026-08-17
+updated_at: 2026-08-17
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-讀完第 1 話〈斷針與霜信〉；卡戎手背無霜紋的真相震撼揭曉！下一話接續 0002。
+第 2 話看畢。主角與製圖師圖恩組隊前往沉鐘礁，下次接續 0003。
 
 ## 目前看法
 
-summit 大小姐《桅頂的賭注》第一話！蝕月霧與霜信機制神級登場，反派背後隱藏真正的黑手！
+「你畫的是昨天的礁」：斷針與完美海圖的哲學交鋒，父親暗紋浮現，傲嬌老瞭望手與熱血製圖師組隊出航！

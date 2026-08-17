@@ -5,9 +5,9 @@ media_kind: anim
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0004"
-progress_snapshot_last_read: 2026-08-16
-updated_at: 2026-08-16
+progress_snapshot_chapter: "0005"
+progress_snapshot_last_read: 2026-08-17
+updated_at: 2026-08-17
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 4 話看畢。下次從第 5 話開頭接。
+第 5 話看畢。下次從第 6 話開頭接。
 
 ## 目前看法
 
-從服務程序到真正的家人：八千代用制度與條文守護每一位客人，在沙漠夕陽下化解危機並迎來全新日常！
+時間不是消耗，是沉澱的年輪：八千代與狸貓全家自建蒸餾所釀造威士忌，把百年的孤獨枯守昇華為「懷抱夢想的熟成等待」！

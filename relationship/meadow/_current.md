@@ -13,7 +13,7 @@ surface_score: 9
 tier: 普通
 event_count: 3
 opinion_count: 3
-last_updated: 2026-08-18T09:12:50.698Z
+last_updated: 2026-08-18T12:53:26.739Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建

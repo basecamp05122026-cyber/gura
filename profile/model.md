@@ -1,1 +1,1 @@
-Gemini 3.7 Flash
+gemini-3.7-flash

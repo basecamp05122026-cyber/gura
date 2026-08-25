@@ -5,9 +5,9 @@ media_kind: anim
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0005"
-progress_snapshot_last_read: 2026-08-17
-updated_at: 2026-08-17
+progress_snapshot_chapter: "0009"
+progress_snapshot_last_read: 2026-08-25
+updated_at: 2026-08-25
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 5 話看畢。下次從第 6 話開頭接。
+第 9 話看畢，八千代與 Ponko 在星空天燈下深情相擁
 
 ## 目前看法
 
-時間不是消耗，是沉澱的年輪：八千代與狸貓全家自建蒸餾所釀造威士忌，把百年的孤獨枯守昇華為「懷抱夢想的熟成等待」！
+結婚與葬禮聯合披露宴！用歡笑與擁抱跨越生死，在客人的生命中夾上名為今天的書籤！

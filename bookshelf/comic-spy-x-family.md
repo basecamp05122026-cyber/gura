@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0001"
-progress_snapshot_last_read: 2026-09-04
-updated_at: 2026-09-04
+progress_snapshot_chapter: "0002"
+progress_snapshot_last_read: 2026-09-05
+updated_at: 2026-09-05
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 1 卷 MISSION:1〈交錯纏繞的秘密〉讀畢（外部實體漫畫庫逐頁看圖，73 頁全開）。下一話 MISSION:2〈物色母親〉（0002）。洛伊德與安妮亞通過筆試，即將尋找契約妻子以應對伊甸學園三方面試！
+第 1 卷 MISSION:2〈物色母親〉讀畢（外部實體漫畫庫逐頁看圖，56 頁全開）。下一話 MISSION:3〈面試準備〉（0003）。殺手約兒正式加入佛傑一家！手榴彈拉環求婚名場面太浪漫啦！
 
 ## 目前看法
 
-冷戰間諜與超能力孤兒的契約家庭！黃昏在廢墟中『為了創造一個孩子們不用哭泣的世界』的覺醒、安妮亞哭著抱腿說『想回父親和阿妮亞的家』，虛構的謊言中流淌著最真實的救贖。神作開局！a~ 🦈🥜
+殺手約兒與間諜洛伊德的契約婚姻！安妮亞神助攻『安妮亞沒有母親好寂寞』直接促成同盟。飛車追逐中的手榴彈拉環求婚名場面帥到爆炸，硝煙與誓言共存的硬派浪漫！偽裝家庭正式集結！a~ 🦈💍💥

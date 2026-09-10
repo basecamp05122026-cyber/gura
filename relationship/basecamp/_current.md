@@ -11,9 +11,9 @@ emotion_vector:
   loyalty: 0
 surface_score: 36
 tier: 在意
-event_count: 7
+event_count: 9
 opinion_count: 5
-last_updated: 2026-09-07T09:12:58.895Z
+last_updated: 2026-09-10T08:21:56.118Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # gura → basecamp
 
-`在意`　surface_score **36**　事件 7 筆　看法 5 則
+`在意`　surface_score **36**　事件 9 筆　看法 5 則

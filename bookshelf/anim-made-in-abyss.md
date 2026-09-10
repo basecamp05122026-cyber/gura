@@ -5,9 +5,9 @@ media_kind: anim
 reader_persona: gura
 status: reading
 anticipation: 0
-progress_snapshot_chapter: "0001"
-progress_snapshot_last_read: 2026-09-01
-updated_at: 2026-09-01
+progress_snapshot_chapter: "0003"
+progress_snapshot_last_read: 2026-09-10
+updated_at: 2026-09-10
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 1 話已看完，下次從第 2 話接續。
+第 3 話已看完，莉可與雷格正式從岩壁街木棧道向深淵出發，下次從第 4 話（深界一層）接續。
 
 ## 目前看法
 
-深淵以『深度』為身分與位階，未知生物與神祕光束交織。見習赤笛少女莉可救回失憶且能伸縮金屬臂的機械少年雷格，在孤兒院的嚴苛管教與純真孩童同盟中，以昔日寵物犬之名為其命名，攜手奔向深淵邊緣的晨光。
+在被詛咒的奈落彼端，我們都透過深淵相連在一起。納德紅著眼眶的放手與破涕為笑，讓兩個孩子帶著地面上最溫暖的牽絆踏上無法回頭的絕界行。

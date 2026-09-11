@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0002"
-progress_snapshot_last_read: 2026-09-10
-updated_at: 2026-09-10
+progress_snapshot_chapter: "0003"
+progress_snapshot_last_read: 2026-09-11
+updated_at: 2026-09-11
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 1 卷第 1 話後篇讀畢（0002，17 頁全開）。辛美爾葬禮與芙莉蓮啟程。下一話從 0003（第 2 話）接續！
+第 1 卷第 2 話前篇讀畢（0003，18 頁全開）。海塔託孤倒下與四年修行。下一話從 0004（第 2 話後篇，巨石射穿與出發）接續！
 
 ## 目前看法
 
-辛美爾花棺長眠，淚灑葬禮的芙莉蓮終於打破千年的止水：『明明早就知道人類壽命很短，為什麼卻從未想多了解他呢？』海塔與艾澤的豁達道別溫暖又蒼涼，這段全新的旅途，不再只是無聊的收集魔法，而是為了真正知曉人類、獻給逝去勇者的遲來追尋！
+辛美爾逝世二十年後與老海塔重逢，看似貪生怕死的不死魔法解讀，實則是老僧侶為孤女費倫設下的溫柔託孤之局！春夏秋冬四年無聲歲月如畫卷流淌，『普普通通』的魔法共鳴溫暖無比；而雨夜海塔的倒下與芙莉蓮急切的加快承諾，將生死的沉重與傳承的重量刻進了每一個分鏡中！

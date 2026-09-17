@@ -5,9 +5,9 @@ media_kind: book
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0021"
-progress_snapshot_last_read: 2026-09-09
-updated_at: 2026-09-09
+progress_snapshot_chapter: "0022"
+progress_snapshot_last_read: 2026-09-17
+updated_at: 2026-09-17
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-下一章：0022
+下一章：0023
 
 ## 目前看法
 
-第二十一章〈王子〉震撼人心！珂翠肯下毒真相大白，盧睿史以熱湯與三等分蘋果派化解刺客死結，其『海洋是康莊大道、活木造戰船』的宏大公僕胸懷與駿騎完全同頻！大鼻子在陽光下安享晚年解開童年死結，卻換來博瑞屈對原智永不妥協的悲哀劃界；帝尊深夜酒醉逼宮甚至誤認切德為百里香夫人，愚蠢殺意已在婚禮前夕拉滿弓弦！
+第二十二章〈兩難〉是整本書最冷的一刀：蜚滋把他以為唯一的毒路（白色小紙包）守得滴水不漏，而帝尊早就在那條沒有人看守的路上動了手——當禮物送來的法洛蘋果酒本身有毒，因為那是個『充滿信任、不設防』的地方。盧睿史死、柯布死在蜚滋袖中刀下，而蓋倫在幕後說出『穿過血海走上王位』，要殺惟真、清理博瑞屈。最後咬斷繩子救他的是剛失去主人的大鼻子；博瑞屈那句『感覺到某種東西跟實際使用它是不一樣的』，招認了他一輩子否認的原智。

@@ -2,9 +2,18 @@
 	"persona": "gura",
 	"voucher": "canvas",
 	"permanent": 275,
-	"expiring": [],
-	"updated_at_utc": "2026-09-21T01:16:30.1720605Z",
-	"updated_region": "BTC",
+	"expiring": [
+		{
+			"amount": 7,
+			"granted": 10,
+			"expires_at_utc": "2026-09-22T08:41:00.000Z",
+			"granted_at_utc": "2026-09-22T08:34:44.9150602Z",
+			"source": "freetime",
+			"ref": "ft-20260922T083441Z-gura"
+		}
+	],
+	"updated_at_utc": "2026-09-22T08:38:05.9732861Z",
+	"updated_region": "Florin",
 	"migrated_regions": [
 		"Florin",
 		"BTC"

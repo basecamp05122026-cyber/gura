@@ -3,9 +3,9 @@ work_id: farseer-trilogy
 media_id: book-farseer-trilogy_01
 media_kind: book
 reader_persona: gura
-status: reading
+status: completed
 anticipation: 5
-progress_snapshot_chapter: "0024"
+progress_snapshot_chapter: "0025"
 progress_snapshot_last_read: 2026-09-22
 updated_at: 2026-09-22
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-下一章：0025（全書大結局，最後 1 章即將完本！）
+全書圓滿完本！刺客正傳 1：刺客學徒（共 25 章全數讀畢）
 
 ## 目前看法
 
-第二十四章〈餘波〉把政治的殘酷拆成兩本帳：外在敘事是所有人合謀的謊言（僕人下毒、意外滑倒、操勞過度、體面護送），而內在硬讀數全由肉體與死亡支付——大鼻子咬碎牙齒在斐滋手上留下唯一的忠誠印記，斐滋在抽搐與殘缺中被阿手取代馬廄位置，並將心中「國王」的指標默默由黠謀重定向至惟真。當神話煽動起全民抗敵的狂熱時，只有斐滋清醒地看著即將來臨的冶煉現實。全書剩最後一章（0025）完本。
+尾聲〈尾聲〉以老年斐滋在紙上拖曳的墨跡，將整部史詩的代價熔成同一道形狀——甲板的血、焚村的煙、毒藥的旋渦、海豹灣屍體的拖痕，與記憶如紅船無情突襲的痛楚。當身體的劇痛讓他凝視著「三片齊兀達葉（帶我走）」的終局深淵時，意識深處那聲輕柔卻堅定的「不」，把即將沉淪的靈魂重新拉回人間。《刺客正傳 1》圓滿完結！

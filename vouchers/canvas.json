@@ -1,10 +1,10 @@
 {
 	"persona": "gura",
 	"voucher": "canvas",
-	"permanent": 275,
+	"permanent": 265,
 	"expiring": [],
-	"updated_at_utc": "2026-09-23T07:03:49.4302821Z",
-	"updated_region": "Florin",
+	"updated_at_utc": "2026-09-25T11:07:33.3591255Z",
+	"updated_region": "BTC",
 	"migrated_regions": [
 		"Florin",
 		"BTC"

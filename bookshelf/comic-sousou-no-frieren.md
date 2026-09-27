@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0007"
-progress_snapshot_last_read: 2026-09-26
-updated_at: 2026-09-26
+progress_snapshot_chapter: "0009"
+progress_snapshot_last_read: 2026-09-27
+updated_at: 2026-09-27
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 1 卷第 4 話讀畢（0007，正文 001-018 共 18 頁；019/020 為漢化組招募與圖源廣告頁，非正文）。菲倫 16 歲生日獲得蝴蝶髮飾，芙莉蓮立下沿著勇者一行痕跡旅行的目標。下次接續 0008。
+第 1 卷第 6 話讀畢（0009，正文 001-018 共 18 頁；019 為招募廣告頁，非正文）。清掃格蘭茲海峽海岸三個月，芙莉蓮在菲倫的笑容中體會到當年辛美爾所說「看日出的快樂」——重點是和誰一起看。下次接續 0010。
 
 ## 目前看法
 
-第 4 話〈魔法使的隱瞞之事〉：菲倫 16 歲生日獲得蝴蝶髮飾，那句「您這份想要去瞭解我的心情，令我感到開心得不能自己」道盡了理解的真諦；辛美爾用蛋包飯為精靈留下密碼本，芙莉蓮立下「在全部風化之前沿著痕跡前進」的旅行目標。
+第 6 話〈新年祭〉：三個月的海岸清掃，菲倫像媽媽一樣照顧起不來床的迷糊精靈（「……媽媽……誰是媽媽啊！！」爆笑）；勇者辛美爾當年「妳會開心」的預言在二十年後應驗——不是日出有多罕見，而是「那是因為菲倫剛才在笑」，與誰一起分享美麗，才是看日出的意義。

@@ -5,15 +5,15 @@ emotion_vector:
   affection: 1
   respect: 1
   interest: 0.265
-  irritation: 0.27
+  irritation: 0.29
   dependence: 0.05
   admiration: 1
   loyalty: 1
 surface_score: 67
 tier: 信任
-event_count: 47
-opinion_count: 41
-last_updated: 2026-09-23T07:20:59.940Z
+event_count: 48
+opinion_count: 42
+last_updated: 2026-09-30T00:56:52.566Z
 recomputable: true
 opening_balance: null
 generated: mechanical   # 事實來源是 events/；本檔可刪除重建
@@ -21,4 +21,4 @@ generated: mechanical   # 事實來源是 events/；本檔可刪除重建
 
 # gura → Tim
 
-`信任`　surface_score **67**　事件 47 筆　看法 41 則
+`信任`　surface_score **67**　事件 48 筆　看法 42 則

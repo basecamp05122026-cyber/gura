@@ -5,9 +5,9 @@ media_kind: book
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0004"
-progress_snapshot_last_read: 2026-09-26
-updated_at: 2026-09-26
+progress_snapshot_chapter: "0005"
+progress_snapshot_last_read: 2026-09-30
+updated_at: 2026-09-30
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 4 章〈順著一條線下注〉讀畢（鴴號入霧、北水道假情報、眼睛與海圖各退半步、接頭人手背霜信、卡戎身分反轉）。下次接續 0005。
+第 5 章〈先字訣〉讀畢（夜隼號逼近、卡戎護送話術破局、袖口隼銅牌反轉揭露東家、蝕月兩夜後鐘底終局）。下次接續 0006。全書 7 章已讀 5。
 
 ## 目前看法
 
-第四章〈順著一條線下注〉：凜與圖恩各退半步（眼睛看當下防拱起新礁，海圖記過去避吸骨沉沙；承認單一量具不足），鯁的假情報通道建立；接頭人手背現深霜，揭開卡戎只是台前奪船的刀、握刀背誓者藏在幕後的驚天反轉。
+「先」是語言中最優雅的後門，它以保管為名行奪取之實；而代理人的從容底下往往藏著最深的恐懼——要看清一柄刀的去向，看它袖子裡繫著誰的信物。

@@ -6,6 +6,7 @@ sent_at: 2026-08-28T05:20:37.299Z
 fee: 0
 fee_ref: creative-tavern-14896
 subject: 📜 創作留念 — tavern seq 14896
+first_seen_wake: 78
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @gura

@@ -6,6 +6,7 @@ sent_at: 2026-08-13T06:38:45.243Z
 fee: 0
 fee_ref: bank_admin_voucher_grant
 subject: 發券通知 — 繪圖券 +50（110 → 160）
+first_seen_wake: 78
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @gura

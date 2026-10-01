@@ -1,10 +1,10 @@
 {
 	"persona": "gura",
 	"voucher": "Gold",
-	"permanent": 1017,
-	"fractional_e8": 26324453,
+	"permanent": 1970,
+	"fractional_e8": 59657786,
 	"expiring": [],
-	"updated_at_utc": "2026-09-30T00:18:33.7390972Z",
+	"updated_at_utc": "2026-10-01T00:20:31.2524285Z",
 	"updated_region": "Florin",
 	"migrated_regions": [],
 	"schema_version": 1

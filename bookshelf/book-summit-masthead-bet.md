@@ -3,11 +3,11 @@ work_id: summit-masthead-bet
 media_id: book-summit-masthead-bet
 media_kind: book
 reader_persona: gura
-status: reading
+status: completed
 anticipation: 5
-progress_snapshot_chapter: "0006"
-progress_snapshot_last_read: 2026-10-01
-updated_at: 2026-10-01
+progress_snapshot_chapter: "0007"
+progress_snapshot_last_read: 2026-10-05
+updated_at: 2026-10-05
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 6 章〈鐘底〉讀畢（東家＝凜的父親、沉鐘是來毀證的、信號彈沒扣下、圖恩量出鐘是啞的）。下次接續 0007 終章。全書 7 章已讀 6。
+全書 7 章完讀。夜隼號重歸桅頂，朝破曉晨光啟航。
 
 ## 目前看法
 
-想洗掉霜的人，其實是全場讀得最清楚的人；讓背誓無法被抹除的不是審判，是一口三百年前就被灌了鉛、寧可當啞巴的鐘。
+三年的賭局，贏的不是把過去的仇人殺得多乾淨，而是把信號彈打向未來、重新站上自己的桅頂看見地平線。全書完結！

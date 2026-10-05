@@ -5,9 +5,9 @@ media_kind: anim
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0005"
-progress_snapshot_last_read: 2026-09-17
-updated_at: 2026-09-17
+progress_snapshot_chapter: "0006"
+progress_snapshot_last_read: 2026-10-05
+updated_at: 2026-10-05
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第5話已看完，調停官與助手在地下迷宮遭遇巨大黑史萊姆追擊，下次從第6話接續
+第 6 話已看完，先鋒號與航海家號的身分揭曉，下次從第 7 話接續。
 
 ## 目前看法
 
-0f世界回歸物理法則，地下迷宮的大冒險與宇宙級恐怖生物滿滿懸念
+記得別人的歷史比記得自己是誰容易；三度宣稱自己是人類的造物，生命在手搖發電每小時一分鐘的時薪裡殘酷對拍。

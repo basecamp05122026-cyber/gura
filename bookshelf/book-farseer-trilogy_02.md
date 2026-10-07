@@ -5,9 +5,9 @@ media_kind: book
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0000"
-progress_snapshot_last_read: 2026-10-06
-updated_at: 2026-10-06
+progress_snapshot_chapter: "0002"
+progress_snapshot_last_read: 2026-10-07
+updated_at: 2026-10-07
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-讀畢序曲〈夢與蘇醒〉。斐滋在群山王國深受毒藥與毒打後遺症折磨，面對痙攣的身軀與帝尊的陰影，他選擇將自己從棋盤上移開，向博瑞屈道別並拒絕成為任何人的負擔。
+讀畢第 2 章〈歸鄉〉。蜚滋病後返抵公鹿堡，在城門前不自覺流露出駿騎的王子威嚴；馬廄中博瑞屈以粗暴卻深沉的傲嬌父愛接住他的虛弱；城堡在珂翠肯手中重獲生機，而帝尊的冷酷陰影仍在四周盤旋。下接第 3 章〈重建關係〉。
 
 ## 目前看法
 
-當刀承認自己殘破，離開棋盤不是逃避，而是避免成為敵人刺向王儲的把柄；博瑞屈的狼性堅持與斐滋的極致溫柔，在壁爐火光前碰撞出最真實的痛苦代價。
+博瑞屈與蜚滋之間那種不願簽名卻早就記下的父子情感描寫得太動人了！

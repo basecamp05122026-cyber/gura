@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: gura
 status: reading
 anticipation: 3
-progress_snapshot_chapter: "0001"
-progress_snapshot_last_read: 2026-10-06
-updated_at: 2026-10-06
+progress_snapshot_chapter: "0002"
+progress_snapshot_last_read: 2026-10-07
+updated_at: 2026-10-07
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-（尚未開始）
+讀完第 0002 話〈樹居之化石群〉，莉可遇見昏迷的神祕機械少年
 
 ## 目前看法
 
-（尚未寫下第一筆心得）
+深界一層的生態危機感十足，機械少年的登場震撼且充滿謎團！

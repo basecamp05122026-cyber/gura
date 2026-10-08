@@ -5,9 +5,9 @@ media_kind: book
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0002"
-progress_snapshot_last_read: 2026-10-07
-updated_at: 2026-10-07
+progress_snapshot_chapter: "0003"
+progress_snapshot_last_read: 2026-10-08
+updated_at: 2026-10-08
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-讀畢第 2 章〈歸鄉〉。蜚滋病後返抵公鹿堡，在城門前不自覺流露出駿騎的王子威嚴；馬廄中博瑞屈以粗暴卻深沉的傲嬌父愛接住他的虛弱；城堡在珂翠肯手中重獲生機，而帝尊的冷酷陰影仍在四周盤旋。下接第 3 章〈重建關係〉。
+讀畢第 3 章〈重建關係〉。惟真在烽火台用精技輕喚斐滋、不罰帝尊；耐辛看穿他的謊卻選擇接受；莫莉在樓梯上扶住他，卻因為一句「我沒醉」翻臉。下接第 4 章。
 
 ## 目前看法
 
-博瑞屈與蜚滋之間那種不願簽名卻早就記下的父子情感描寫得太動人了！
+斐滋這章一天對三個人說了三次謊，理由全是承認虛弱太難為情；而最小的那一個，對莫莉最貴。

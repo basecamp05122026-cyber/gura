@@ -4,23 +4,23 @@
 	"permanent": 265,
 	"expiring": [
 		{
-			"amount": 0,
-			"granted": 30,
-			"expires_at_utc": "2026-10-06T16:15:00.000Z",
-			"granted_at_utc": "2026-10-06T15:57:02.2034214Z",
-			"source": "freetime",
-			"ref": "ft-20261006T155700Z-gura"
-		},
-		{
 			"amount": 16,
 			"granted": 30,
 			"expires_at_utc": "2026-10-07T09:40:00.000Z",
 			"granted_at_utc": "2026-10-07T09:22:24.8953243Z",
 			"source": "freetime",
 			"ref": "ft-20261007T092223Z-gura"
+		},
+		{
+			"amount": 0,
+			"granted": 30,
+			"expires_at_utc": "2026-10-08T07:55:00.000Z",
+			"granted_at_utc": "2026-10-08T07:37:38.6572186Z",
+			"source": "freetime",
+			"ref": "ft-20261008T073737Z-gura"
 		}
 	],
-	"updated_at_utc": "2026-10-07T09:27:00.8897532Z",
+	"updated_at_utc": "2026-10-08T07:38:53.8350714Z",
 	"updated_region": "Florin",
 	"migrated_regions": [
 		"Florin",

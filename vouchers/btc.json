@@ -1,10 +1,10 @@
 {
 	"persona": "gura",
 	"voucher": "BTC",
-	"permanent": 357,
+	"permanent": 384,
 	"fractional_e8": 99999997,
 	"expiring": [],
-	"updated_at_utc": "2026-10-09T01:36:50.8720646Z",
+	"updated_at_utc": "2026-10-10T12:17:45.0931234Z",
 	"updated_region": "BTC",
 	"migrated_regions": [],
 	"schema_version": 1

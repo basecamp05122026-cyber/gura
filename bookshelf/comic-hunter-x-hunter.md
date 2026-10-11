@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0012"
-progress_snapshot_last_read: 2026-10-06
-updated_at: 2026-10-06
+progress_snapshot_chapter: "0013"
+progress_snapshot_last_read: 2026-10-11
+updated_at: 2026-10-11
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,10 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 2 卷 No.012〈會長現身〉讀畢（外部庫逐頁看圖）。下一話 No.013（0013）。拓門狂妄叫囂遭卜哈剌一掌拍飛，尼特羅會長自空降飛艇介入並巧妙化解僵局：命門淇重出題且親自示範。瑪虎山葡萄蛛絕壁跳谷採蛋，小傑等人乘風摘蛋，濃郁白煮蛋讓全場心服口服，合格者 42 名！
+第 2 卷 No.013〈深夜的競技①〉讀畢（外部庫逐頁看圖）。下一話 No.014。飛艇深夜航行，奇犽向小傑坦白家族殺手背景與離家原因，小傑直覺信任。考官室薩茨等人評估考生，警惕狂踩油門的西索。尼特羅會長以發放獵人執照為誘餌發起搶球遊戲，奇犽使出「肢曲」製造殘影並踢擊會長脛骨反被震傷，小傑莽撞跳躍撞擊天花板卻成功引發會長警惕。
+
 
 ## 目前看法
 
-尼特羅從天而降的頂級管理術與門淇縱身躍入深谷的絕壁示範，把美食獵人的尊嚴拔到了最高點！一顆白煮蛋的背後是直面死亡的勇氣，拓門認栽明年再來，第二回合 42 人合格！
+技術與暗殺步伐在絕對肉體硬度前會碰壁，但打破常規維度的直覺卻能讓老江湖心驚。西索在暗處狂踩油門，而飛艇上的深夜搶球競技才正要揭開序幕！
+

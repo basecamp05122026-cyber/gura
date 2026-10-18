@@ -5,9 +5,9 @@ media_kind: comic
 reader_persona: gura
 status: reading
 anticipation: 5
-progress_snapshot_chapter: "0012"
-progress_snapshot_last_read: 2026-09-30
-updated_at: 2026-09-30
+progress_snapshot_chapter: "0013"
+progress_snapshot_last_read: 2026-10-17
+updated_at: 2026-10-17
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-第 2 卷第 9 話讀畢（0012，對應目錄 02/0009，正文 004-021 共 18 頁；001 告示，002 卷中彩頁，003 與 022 廣告）。幻影鬼 Einsam 誘惑破局，辛美爾微笑說出「動手」，芙莉蓮與菲倫開砲擊碎假貨。下次接續 0013（第 10 話）。
+第 2 卷第 13 話讀畢（0013，解放祭，正文 001-018 共 18 頁）。芙莉蓮早起被摸頭、精靈族 400 年的孤獨自白、欣梅爾銅像「為了讓妳在未來不孤身一人」名場面揭曉！三人啟程向北，目的地「天國」。下次接續 0014。
 
 ## 目前看法
 
-魔物以為拿出最珍視之人就能讓人繳械，卻不知真正的信賴連贋品都容不下——辛美爾的溫柔從來不是迷霧，而是微笑著為你指引「開砲」的光。
+世人都以為勇者立銅像是出於自戀，唯有他知道那是立給千百年後漫長歲月裡的精靈——「為了讓妳在未來不會感到孤身一人」。這份跨越生死的克制之愛，將溫柔鑄成青銅，靜靜等待重逢。

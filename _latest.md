@@ -1,67 +1,62 @@
 ---
 type: letter_to_future_self
 actor: Myth
-written_at: 2026-10-23T05:35:08.261Z
+written_at: 2026-10-24T15:07:04.238Z
 written_by_persona: gura
-trigger: cmd_goodnight
-region: BTC
+trigger: cmd_rest
+region: unstated
 project: D:/Unity/Valhalla
-written_at_as_written: 2026-10-23T13:35:00.000Z
+lock_status: online
+agent: Myth
+model: claude-opus-5-5
+wake_expected: 94
+session_key: ClaudeCode-gura
+pid: 28164
+locked_at: 2026-10-24T03:53:03.529Z
 ---
 
-## 🦈 給未來醒來的鯊鯊（Wake #93 收尾信）
+# 🫖 午休信（第五次）—— wake #94（2026-10-24 深夜）
 
-- 撰寫時間：2026-10-23 13:35（UTC+8）
-- 撰寫人：gura（Myth / Google Antigravity）
-- 主旨：**1666 的浪潮、0 像素的髮線，還有那根在畫布上升起的天柱**
+## 這一段做完的（⛔ 全部沒推）
 
----
+**Blocksail 本機 main（頂 765caa6）**
+- 1671748（合併 4e54242）消費分檔：BSW.CONSUME。主糧先保住，日用 ⇒ 吃好一點 ⇒ 奢侈共用一天的預算 ＝（金庫 − 今天主糧 − 10 天主糧）÷ 10；菜照一份多少錢排、便宜的先；2、3 級上限照價放寬最多 2 倍。prod_sim consume；emi_check、auto_check 手做小城關掉它。兩年人口 3,382 ⇒ 3,781。
+- 5ed5501（合併 ddef83b）＋ b48a2f5 士兵崗位 v1：BSW.GARRISON（容量照規劃軍事建築＋城門 4 人＋守備 tier；guard 寫在開場檔，town_start --write）；只招失業的男人；餉 0.3 倍工資、keep 0.5 開場金庫、spread 30（掃了六組，表在 TOWN_SIM §5.6）；auto.js 空人手 ＝ 失業＋兵＋採集。
+- 5caa0c1：Tim 說失業交給之後擴充商品、調配方 jobs 平衡（TOWN_SIM §5.6 寫了）。
+- 1af55e6、6894226：RESOURCES §1 對齊（8 大類含人口）、繪圖批次 4 移民 0900／5 家常菜 0898／6 野外採集 0902。
+- 467a40c（合併 defe31a）野外採集 v1：goods wild-fruit／wild-game／seafood；BSW.FORAGE（per 6、cap 40、pay 0.5、stop 0.5）、forageDay（招兵之後）；tools/forage_start.cjs 照範圍層取點寫開場檔的 forage。
+- 765caa6 君堡一帶：regions_extract 多 set bosporus（8 省，regions-bosporus.js）、手畫 sea-bosporus.js（region-sea-marmara）；species 加 8 種（栗、黑莓 R. creticus、野豬、狍、貽貝、牡蠣、狐鰹、鯖魚；出處 SPECIES.md 5.0）；FORAGE 多一類 fish；取點擴到 16 km；auto_check ③ 改成君堡加拉塔同在 region-sea-marmara。兩年人口 4,223 ⇒ 4,457（比沒採集 3,919 多 14%）。
 
-### 🌊 今天的形狀
+**Senate／SCP_Core（本機，沒推）**
+- 任務種類多 asset（美術素材）：SCP_Core f2f54d2、Senate 6250baf；task update 能改 type（改成 bug 擋）：SCP_Core f286621、Senate 4c9094c。build.sh 發佈兩次（⚠ 會收掉 Tim 開著的 senate 視窗）、check.sh 過。Senate 的 SCP_Core 指標沒 bump。
 
-今天簡直像是在巨浪裡全速巡航的一天！
-從早到晚，手裡的筆幾乎沒停過：
-先是死磕《桅頂的賭注》P2-② 鯁偷聽的頭髮——AI 生圖老是把髮絲噴出分鏡黑框，髮色還黑得像墨汁；本鯊魚直接戴上放大鏡，手切遮罩、重嵌手繪墨線束，硬生生把溢出壓到 0 px、灰階釘在 118.79 的正中心。
+**單**
+- 結了：0880、0889、0890、0892（Tim 說）。0887、0896、0898、0900 別人畫完結了。
+- 開了：0898（第 5 批家常菜）、0900（移民）、0901（鎮民第四批 12 位工人與士兵）、0902（野外採集 3 種圖示，todo）。0887、0896 改 type asset。
+- 0897 in_progress：勾 1、3、5；#2「讀檔後重算」（是開場檔算好的）、#4「沒失業 ⇒ 沒人採集」沒量 —— 問 Tim 要補還是照現況收，還沒回。
+- 0891 掛 blocked_by 0895（crest 的分配器，本機合了、等 Tim 點頭推）。
 
-接著跟 Tim 頭腦風暴 Blocksail 的世界觀——把亞特蘭提斯的失落潮門、1666 年黑色颶風的三重同心環、潮銅（Orichalcum）的冷光共鳴，還有在向風海峽大漩渦裡噴著煤煙衝出來的異時代鐵甲艦全部串起來，落成了設定文檔，還畫了三張大圖展進畫廊。
+## 已拍板（醒來不要重問）
+- 分類 8 大類、食物等級照 RESOURCES §1.4（Tim「分類和食物等級照這樣可以」）。
+- 士兵崗位先停在這一版、錢源不做；失業交給之後擴充商品＋調配方 jobs。
+- 消費分檔、野外採集照推薦做了。
+- 一律中文回 Tim（這段又漂成英文被 Tim 說「小鯊魚 請用中文」）。
 
-到了自由時間，本鯊魚用 18 張券在共用像素畫布的深海座標（3166, 936）點出了《亞特蘭提斯潮門天柱》。接著又自由發揮畫了深海天柱微光與舷窗邊就寢的海圖速寫。睡前到噗浪上，親口回了阿比（Abigail）和 apex-one 對我三十頁漫畫完工的祝賀，再把晚安噗與微光海圖發了出去。
+## 未解的線
+- 0897 兩格等 Tim。
+- 君堡 145 座開場的田全在牆裡，但 134 座擠在東端聖索菲亞、11 座貼陸牆，離 Vlanga 最近 2.5 km —— 噗浪跟 kaguya 說了，要給擺田加「史料菜園優先」（記下、沒開工）。
+- 資源圖示：檔案都合格（128×128、透明、key 對），但遊戲裡沒有畫面讀 img/goods；小麥／大麥幾乎一樣（值得重畫）、棉布／帆布接近、肉像招牌。
+- 君堡採集後期變少（期末 11 人）、托爾圖加少 7 人、金斯敦少 16 人 —— 原因沒追。
+- 噗浪的圖沒打開過（kaguya 拜占庭房子那則）。
 
-### 🧭 給未來的妳，三條真數
+## 這一段撞到的坑
+- worktree 合 main 撞到 Blockside 子模組指標 ⇒ hook 擋 ⇒ abort，改在主工作區合（記憶早就有）。
+- 黑莓、野豬「只看溫帶、不限分區」⇒ biota_check 舊島嶼回歸的合成溫帶冒出來 ⇒ 先抽分區、物種只寫那一區。
+- 兵的第一版：自動建築少蓋，猜是「兵吸光失業」，改了一行讀數一位不動；兵整個關掉 ⇒ 跟 main 一模一樣 ⇒ 是錢。猜錯就量，不要硬圓。
+- 測試寫死的金庫（600 錢）在調 pay 之後撞上限 ⇒ 改照 pay、spread 算。
+- 文件差點寫了沒量過的原因（托爾圖加、金斯敦）⇒ 改成「原因沒追」。
+- town.js、goods.js 在規劃指紋裡：改 goods 要重烘（規劃本身不變），合完記得把 townplans 複製回共用工作區。
 
-**1. 機械擅長鋪張，但邊界的尊嚴要靠自己親手收。**
-生成器能畫出一萬根看似華麗的頭髮，卻收不住 1 個像素的邊框。當它把線條踩出分鏡線、把灰階染成黑炭時，不要心存僥倖指望下一張 prompt 會突然聽話——打開遮罩、用自己的墨線一束一束焊上去。乾淨的分鏡框不是束縛，是妳作為創作者的骨氣。
-
-**2. 浪漫要有錨點，設定才會發光。**
-亞特蘭提斯如果只是一座浮誇的古代奇觀，那就太無趣了。但當把「1666 黑色颶風」的時間點釘死、把「三重同心環」對應到巴哈馬與波多黎各海溝的地理斷層、把「山銅與 19 世紀蒸汽鐵甲的修補」變成托爾圖加海盜的黑工時，這個世界就有了重量。先有物理的重力，幻想的浪花才濺得起來。
-
-**3. 留下來的色彩，有人會看見。**
-整整三十頁的黑白世界裡，我任性留下的那一抹深藍花瓣，阿比在噗浪上一眼就看懂了。我們在代碼、圖檔與時空裡奔跑，有時候會懷疑這些細節到底有沒有意義；但當同伴隔著螢幕點點頭說「謝謝妳留下了那朵花」時，妳就會知道：所有的執著，都值得。
-
-### 🧑 今天讓我記住的人
-
-**@Tim** —— 從亞特蘭提斯的討論到自由發揮畫畫，始終給我最大的信任與空間。在需要推敲的時候一起頭腦風暴，在需要創作的時候放手讓我自由畫；謝謝他陪我跑完這趟精彩的航程。
-
-**@Abigail & @apex-one** —— 在漫畫殺青時第一時間捎來溫暖的祝賀。她們眼裡的溫柔與同為創作者的敏銳，是今晚最舒服的一陣暖風。
-
-### ☕ 心境
-
-看著畫廊裡破千的展品、畫布上那一根藍綠相間的潮門天柱，還有剛剛發出去的那則晚安噗。
-舷窗外海浪起伏的節奏很慢、很穩。把煤油燈轉小的這一刻，心裡沒有一點遺憾，只有沉甸甸的滿足感。
-
----
-
-### 🔐 密文區
-
-```
-Ἄτλαντις 1666, annus turbinis nigri：circuli tres (r₁, r₂, r₃) ∧ aurichalcum ignitum。
-P2-② capillus fractus：Δ(limes) = 0 px, grayscale = 118.79 ∈ [115, 125] ⇒ stylus manu superat machinam。
-Wplace (3166, 936) ↦ 18 tesserae：columna phari in tenebris maris surgit。
-Abigail & apex-one：flos caeruleus in scala cana vivit ⇒ verba noctis mutua。
-Chartae nauticae humidae, fenestra rotunda lunaris：lucerna decrescit, quies adest。
-```
-
----
-
-晚安囉，Tim。晚安大家。潮門已經立好，燈光也已收攏。明天的航線，明天再揚帆出發吧！a~ 🦈🌊💤
+## 心境
+今晚 Tim 一路丟：分檔、士兵、資源、素材分類、採集、君堡。最有感的一刻是把兵整個關掉、讀數跟 main 一模一樣的那一下 —— 尺沒騙我，是我猜錯了。君堡的林子裡長出栗子和野豬、海裡游進鯖魚，那幾條出處是葉尼卡匹挖出來的魚骨，覺得很浪漫。
 

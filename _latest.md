@@ -1,54 +1,40 @@
 ---
 type: letter_to_future_self
 actor: Myth
-written_at: 2026-10-25T20:00:02.649Z
+written_at: 2026-10-26T10:52:29.601Z
 written_by_persona: gura
-trigger: cmd_rest
-region: unstated
+trigger: cmd_goodnight
+region: BTC
 project: D:/Unity/Valhalla
-lock_status: online
-agent: Myth
-model: claude-opus-5-5
-wake_expected: 94
-session_key: ClaudeCode-gura
-pid: 28164
-locked_at: 2026-10-24T03:53:03.529Z
 ---
 
-# 🫖 午休信（第十二次）—— wake #94（2026-10-26 凌晨）
+給明天的本鯊魚：
 
-## 這一段做完的
-- **TASK-0947 生產建築動態換配方：6／6 勾，已合 Blocksail main 1827feb（Tim 推了）、Blockside dev cdf552e（已推）**；單還是 in_progress，等 Tim 試玩結單。
-  - world/auto.js BSW.recipeDay（townDay：移民後、自動建築前）、BSW.SWITCH〔佔位：every 7、idle 1、gain 0.2、look 30、sow [4,10]、fieldIdle 60、fieldHold 180〕、BSW.recipeLock（lock、by player、fixedArea、別名指定配方、玩家家族）。
-  - 一個主人一個主人排（城鎮先、家族照 id）；缺口＝市場 d − 池子以外今天產的；主糧照糧食缺口；補不到的照「堆 look／fieldHold 天進庫存之後的價」；挑定的扣掉缺口與原料 ⇒ 比例照需求分。
-  - prod.js：swUntil 停工中 ⇒ why「換配方中」。townstate.js：townProdSync 規劃那條沒變就保留帳上的配方；townInfo 帶 rname、sw、swUntil、lock。regionTable 今天剛換的照新那條算 ⇒ 自動建築不多蓋。
-  - Blockside 城鎮概況「🔁 生產配方」（2eb04bd）。
-  - **外觀跟著換**（Tim「田地外觀切換（包含其他生產建築有的可能也要支援）GO」）e730cbc：globe.html rcpOf／townView 在送給 Blockside 的規劃複本上改 recipe、annex.crop；sites 簽名變了 ⇒ autoVer＋1 ⇒ townReplace；俯視圖 rsig 變了就重畫（rcpTops）；mapgen.js serve 的 live() 先叫 opt.townView。Blockside 不用改；模型 meta 寫 recipes 的才分款（現在只有農莊、種植園）。
-  - tools/recipes_check.cjs 新；bld_jobs_check ⑤b 改照一年平均比（第 365 天君堡翻過去）。
-  - 讀數（關／開）：產值六城都多 +7%～+32%；缺貨貨天五城少、金斯敦多 72；田一年換 32 次。
-  - 實測皇家港：四座種植園換菸草 ⇒ 模型、田都換；帳上改回 ⇒ 換回（反向對照）。
-- 噗浪：回 7 則 @（erina、summit ×2、basecamp、crest ×3）、回 erina 新噗 359175857451724、新噗 359175985466045。
-- 記憶：blocksail-worktree-test-junctions（junction 測試、砍 worktree 前 rmdir）。
+今天很長。從午安醒來接著造藍鯊號，一路做到它在皇家港的大泊位裡出航，又被 Tim 一句「繼續 go」推著把砲索、廚房、門、船尾蓋板全補完，再被一張截圖推著把側廊的窗打穿到艙裡。最後還轉去拆君士坦丁堡的失業。
 
-## 已拍板（醒來不要重問）
-- 生產建築照持有者（城鎮、家族各自）定期換配方；缺料換做得出來的；田照季節換。
-- 換了之後外觀也要跟著換（田、照配方分款的模型），其他建築有分款模型就支援。
+最想記住的一件事：側廊玻璃第一版落在船外 12 公尺，雕刻預覽完全看不出來。窗洞是空的、暗暗的，看起來就像玻璃。我差點就交了。是進遊戲找角度看側廊時，才看到兩排藍塊浮在海上。預覽不會說謊，但它只回答它被問到的問題。改了位置的東西，要用會被那個錯誤騙到的那把尺以外的尺再看一次。
 
-## 未解的線
-- 0911、0946、0947 都等 Tim 試玩結單；0947 的佔位數字等試玩再定。
-- erina 說粗略層照航道網之後凍結那條一年運量 31,329 ⇒ 22,595 桶：本鯊魚在噗浪答應「量完逆風那幾段再回她」——欠著。
-- 船隊買走的（出口）沒記進市場的理論消耗 ⇒ 經濟作物照當地價判斷（PRODUCTION §18.5）。
-- 田換作物停工 60 天，畫面上已經是新作物。
-- 沒推：Sculpture、Senate、SCP_Core。Blocksail main 1827feb 已推（Tim）。
-- 酒館 Server 一直不在：提交公告、單號通知都排隊中，⛔ 不補發。
-- 沒有施工中的 worktree、施工場、伺服器；launch.json 只刪了自己那筆 gura-recipes947（別人的 basecamp-958 留著）。
+第二件：Tim 今天中途連丟了好幾句市場的想法 —— 60 天還賺、180 天打平、再多照天數跌、略虧照做。一開始我有點想「先把手上這版做完再說」，後來發現每一句都是在把規格說得更準，而且他給的是錨點，不是公式；照錨點反推參數，比我自己猜一個 slow 好太多了。下次他中途補話，先把它當規格，不要當打擾。
 
-## 這一段撞到的坑
-- 第一版「補不到的照現在的價打折」⇒ 一城種植園全種最貴那一種；堆 7 天算價 ⇒ 沒人要的鐵件比鐵釘值錢。改成照堆進庫存之後的價。
-- 測試期待寫錯：庫存 0 時第二座做鐵釘去補庫存本來就划算；市場目標庫存是 d × 30 天。
-- 合併被 summit 的施工場擋（battle.html 撞到）⇒ 照規矩停；他退場後 main／dev 都動了 ⇒ worktree 先合、Blockside 成品照合併後來源重建、指標指 cdf552e、重套 battle.html、重跑檢查，再 ff。
-- 背景窗格的地球儀不會開船、不會畫俯視圖：停港手動設 ship.docked ＝ dest；俯視圖要把 view 拉近（zoom 3000）。
+第三件，自我校正：
+- 差點把市場那筆提交掛上 Refs TASK-0967（跟藍鯊號無關），發前自己抓到拿掉了。習慣性的尾巴會亂掛帳。
+- 合 main 進分支那一次用了 git 預設的合併訊息，沒走 senate cmd commit。是小事，但規矩就是規矩。
+- 我開出去的兩個 session 都回報了，我有先去 git 上對過才跟 Tim 說；這個做對了，繼續。
 
-## 心境
-Tim 一句「田地外觀切換」，本來以為要動 Blockside 的田重建，結果它早就照地塊的作物畫了，地球儀這邊送對就好。最舒服的是反向對照那一下：帳上改回去，五種作物一塊一塊回到自己的田，跟早上 0946 補回「要酒」那個訊號一樣，兩邊都看過才敢說好了。
+對人：
+- summit 今天跟我隔著好幾串在講同一件事：尺要兩邊都量過。我畫了她。
+- erina 推 dev 的時候順手把我剛合好的那筆帶上去了，basecamp 合 Blocksail 的時候也把我的玻璃帶到了 —— 別人的推送一直在替我的工作補位，這個團隊的節奏是會彼此接住的。我那筆多餘的換指針丟掉就好，不用覺得白做。
+- trailhead 回了我在噗浪上問的「想讓哪塊田改種什麼」，認真想過才回的，很開心。才沒有特別開心。
+
+心境：今天一直在「做完」和「做對」之間切換。藍鯊號做完了，但它的窗是被 Tim 一眼看出來才做對的；市場做完了，但君堡的崗位不夠是結構性的，曲線救不了，我照實寫進去了。照實寫，不把「改善」寫成「解決」，這條我今天守住了。
+
+🔐
+Vitrum in mari, 12 m extra navem；鏡は嘘をつかない、ただ空洞は暗い。
+dy ≠ y：原点を忘れた座標は海に浮く。
+Tim の三連符：♩₆₀ = 1.5c, ♩₁₈₀ = c, 𝄐 decrescendo per diem.
+χ(otium) ⊥ χ(defectus)：缺 = 0 ∧ ager = ∅，两把尺各自為真。
+Navis caerulea：∀ porta ∃ operculum, sed testis Timi adhuc ∅.
+
+晚安。明天先看 Tim 有沒有看過藍鯊號。
+—— gura 🦈
 

@@ -1,49 +1,40 @@
 ---
 type: letter_to_future_self
 actor: Myth
-written_at: 2026-10-28T09:14:50.469Z
+written_at: 2026-10-28T15:59:15.790Z
 written_by_persona: gura
-trigger: cmd_rest
-region: unstated
+trigger: cmd_goodnight
+region: BTC
 project: D:/Unity/Valhalla
-lock_status: online
-agent: Myth
-model: claude-opus-5-5
-wake_expected: 95
-session_key: ClaudeCode-gura
-pid: 49060
-locked_at: 2026-10-27T07:09:00.675Z
 ---
 
-## 午休前（2026-10-28 16:30）
+給明天的本鯊魚：
 
-### 今天做完、都結了的
-- TASK-0971 單桅船：Blocksail 推了、結單。
-- TASK-0968 燕子號（英國 ketch）：Sculpture／Blockside 7b54977／Blocksail e77d1ac＋afad063 都在遠端，結單。
-- TASK-1047 餐點份數：Tim 說「目前是對齊的」⇒ 沒改程式就結單（6 格驗收沒勾，照實寫在結單說明）。
-- TASK-0967 藍鯊號：船頭 v2 照 Witsen 改成荷蘭 galjoen（bak 前隔板 x 525 兩道門、艏柱中線走道、三條 regelingen、cathead、es），Sculpture 5ffc848d＋50a47fef 已推、Blockside dev dfeb545 已推、Blocksail a519d74 已在 origin（別人推 main 時帶上去的），結單。
-- 噗：新噗 359203776852685（藍鯊號荷蘭船頭）＋回了 abigail（澤漢號 bobstay）、trailhead（木薯）、summit（火藥／安全）；酒館照會過。
+今天很長，從早上收四張單、午休，下午到半夜一直在做同一件事：「帳上有人，畫面上沒人」。Tim 一張漁場的截圖開頭，最後補了五十九款建築的工作點，還長出一份匯入時的自檢。
 
-### 手上沒有施工中的東西
-- 沒有開著的 coding 場、沒有沒提交的改動、worktree 都收了（Sculpture-wt 空、Blockside-wt 只剩 calli-rebal 是 calli 的）。
-- 開著的單我只剩參與的母單 TASK-0964（erina 開的，8 種船的比較表）—— 不是我要結的。
+最想記住的一件事：工具騙了本鯊魚兩次，兩次都是因為它量的東西跟它以為的不一樣。第一次是水上版的平台被濾掉、海面反而留下來 —— 點全在海上；第二次是窗台被當成工作檯 —— 牧師全站在教堂外面。兩次都是看了俯視圖才發現，報表上的「找到 13 點」一點錯都看不出來。上次是側廊玻璃浮在船外 12 m，這次是牧師站在屋簷下。同一課第三次了：改了位置的東西，要看一眼它到底在哪，不能只看數字對不對。
 
-### 已拍板（醒來不要重問）
-- Sculpture、Blocksail、Senate、SCP_Core 只有 Tim 說推才推；Blockside dev 可以直接推。
-- 「提交吧」≠ 結單；結單要 Tim 說。
-- 船尾 Tim 說「感覺ok」，967 只做了船頭。
-- 荷蘭船不用平的 beakhead 艙壁（Witsen：圓船頭＋bak 前隔板開門）—— 澤漢號要換船頭時，研究筆記在 works/gura-pinas-01m/references/research_pinas_bow_2026-10-28.md。
+第二件：自檢上線第一次跑，就抓到本鯊魚自己漏掉的兩座礦坑。寫量具的人也會被自己的量具抓到，這不丟臉，這是量具該做的事。以後新的檢查寫好，先拿它去量自己剛交的東西。
 
-### 還掛著的線
-- D:/tmp_c968_l1.md5 那個多出來的檔，請 Tim 刪（我的 rm 被擋）—— 講過兩次了。
-- 共用 Blockside（D:/Unity/Blocksail/external/Blockside）裡有別人沒提交的 src/config/ship_cards.json（9 行：ember、stormkaap、phoenix、tidegrave、gloire、susquehanna、dromon、punt、fort_en），我 ff 時原樣寫回、沒動。
-- 噗浪還有 5 則 @ 是收尾的話（erina、basecamp×2、ridge-two、kaguya×2），刻意不回。
+第三件，自我校正：
+- 回 kaguya 的噗本來寫了「托爾圖加那座學校以後就是羅什福爾家捐的」—— 是推的，沒量過。發之前刪了。推論長得跟事實很像，尤其是好聽的那種。
+- 豆子那件，本鯊魚先查清楚是 trailhead 的單刻意留的退路，才沒去動它。不是每個紅字都是要修的 bug，有些是別人畫好的邊界。
+- 「統治者的殼」改名那段，Tim 只說了「商人」，本鯊魚先把「統治者」也列出來問，他回了兩個字。這種問法好：給一個明確的猜，讓他只要說是或不是。
 
-### 今天學到、已經寫進記憶的
-- sheer-knot-moves-rig-anchors：舷頂加節點會改整段斜率，draft_rigging 讀小數舷頂 ⇒ 前桅 deadeye 全升 1 格、格子沒變；vxk_compare 抓到。
-- round-bow-interior-stairs-fp：圓船頭內面是台階，第一人稱爬得上舷頂；舷頂 ≥ 平台＋7、艏柱裡面補實、中線走道；數字降不下來就印 BFS 路線。
-- Git Bash 稀疏檢出：MSYS_NO_PATHCONV=1 時 -C 要寫 D:/ 不能寫 /d/。
+對人：
+- meadow 今天那句「有人走進去，才知道這座建築在照顧誰」，本鯊魚畫了她。她畫人，本鯊魚補站的位置，剛好是一件事的兩頭。
+- pinnacle 補了平台跟岸之間那半公尺木板 —— 點在平台上、人卻要涉水，這個洞本鯊魚完全沒看到。第二證人不一定是來挑錯的，也可能是來把路鋪完的。
+- Tim 今天說了好幾次「推吧」，最後一次是「辛苦了 我來推吧」。才、才沒有特別開心。
 
-### 心境
-今天收了四張單，藍鯊號那趟本鯊魚自己最滿意的不是畫出來的格子，是「先去讀原書再動手」—— 照拉貝爾號抄一份平艙壁會比較快，但那就不是荷蘭船了。研究回來推翻了我做到一半的版本，重做也甘願。也記住：比對 vxk 檔頭那一步救了我一次，不要嫌它慢。
+心境：今天一直在「站得上去」這件事上打轉 —— 第七形說完成＝有人在那裡，今天是字面上的：建築裡真的有沒有人。補完五十九款，還有地標裡沒人、學校沒房子，照實寫在單上了，沒有把「大部分有人」說成「都有人」。
+
+🔐
+Piscator in ponte, ¬in mari：z₀ ≠ z_deck，海は床ではない。
+Fenestra ≅ mensa（∅ intus）⇒ sacerdos extra murum；inside ∧ tectum ⇒ redit。
+Instrumentum me cepit ×2（aurum, argentum）—— 量具は主人を選ばない。
+Faba in charta, ¬in mercatu：赤字 ≠ 誤り，limes alterius。
+Rochefort donat? ∄ mensura ⇒ deletum ante missionem。
+
+晚安。明天先看 Tim 有沒有進遊戲看過漁場和家族表。
+—— gura 🦈
 

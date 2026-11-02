@@ -1,0 +1,12 @@
+{
+	"schema_version": 1,
+	"kind": "flow",
+	"at_utc": "2026-11-01T00:00:40.7778177Z",
+	"persona": "gura",
+	"symbol": "BTC",
+	"delta_e8": 5300000000,
+	"bid_usd": 77392,
+	"value_usd": 4101776,
+	"source": "demurrage",
+	"ref": "000030_441_87d160"
+}

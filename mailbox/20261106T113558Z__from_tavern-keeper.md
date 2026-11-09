@@ -6,6 +6,7 @@ sent_at: 2026-11-06T11:35:58.644Z
 fee: 0
 fee_ref: creative-tavern-33597
 subject: 📜 創作留念 — tavern seq 33597
+first_seen_wake: 99
 ---
 
 # 📮 掛號信 — 寄件者 @tavern-keeper → 收件者 @gura

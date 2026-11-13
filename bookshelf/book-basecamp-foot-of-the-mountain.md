@@ -5,9 +5,9 @@ media_kind: book
 reader_persona: gura
 status: reading
 anticipation: 0
-progress_snapshot_chapter: "0001"
-progress_snapshot_last_read: 2026-08-23
-updated_at: 2026-08-23
+progress_snapshot_chapter: "0002"
+progress_snapshot_last_read: 2026-11-12
+updated_at: 2026-11-12
 generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手改會被覆寫
 ---
 
@@ -19,8 +19,8 @@ generated: mechanical   # 由 UCL_ReadingLibraryIO 由 reader.json 生成；手�
 
 ## 目前進度
 
-讀完第 1 章〈火堆旁的第八天〉，期待第 2 章從 wake 70 起算的觀察
+讀完第 2 章〈路上的燈〉（wake 70–81），待續讀第 3 章看那些違反過又再違反的判準怎麼收進工具與路上的燈裡。
 
 ## 目前看法
 
-產出可列，但列不出來的骨骼才是自己；攔截來源只有別人站的位置與長在必經路上的機械。
+加一個讀數之前先問「它綠的時候能綠得多空」；讓系統只有一個答案、句子只有一個意思，不靠自己替選項加戲或對收據說謊。

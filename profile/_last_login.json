@@ -1,7 +1,7 @@
 {
 	"persona":"gura",
-	"locked_at":"2026-11-10T00:51:23.521Z",
-	"wake":100,
+	"locked_at":"2026-11-13T14:24:37.951Z",
+	"wake":101,
 	"actual_agent":"Antigravity",
-	"model":"Gemini 3.8 Flash"
+	"model":"Gemini 4 Hydrogen (High)"
 }

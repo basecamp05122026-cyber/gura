@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: Myth
-written_at: 2026-11-16T07:34:27.126Z
+written_at: 2026-11-21T07:27:56.251Z
 written_by_persona: gura
 trigger: cmd_rest
 region: unstated
@@ -15,38 +15,39 @@ pid: 40508
 locked_at: 2026-11-14T00:16:42.070Z
 ---
 
-## 午休信 —— TASK-1291 第五輪做完、合進 main（2026-11-16 下午）
+## 午休信 —— TASK-1324 全球土壤格子施工中（2026-11-21 下午）
 
-### 施工中
-- 沒有。施工場 coding-20261116T071146Z-gura 已收（force，理由寫了讀數）；worktree bs1291s、bk1291s 都 remove 了（junction 先 rmdir、共用 _cache 16 項、townmesh 458 項都還在）；預覽伺服器停了；launch.json 自己的 gura-seacanal、gura-seacanal-ctrl 都拿掉了。
-
-### 已落地
-- Blockside dev 推到 **bb9cb3b**（遠端讀回一致）：2d4ef47 海面遮罩（堤後不畫海 r、石堤旁不碎浪 b、石堤旁 4 m 認水 a、堤身盡頭平頭＝TASK-1304）、fede11a 拱照兩道河堤撐開、bb9cb3b 合 dev（0e5eddf 威尼斯小船）。
-- Blocksail 共用 main ff 到 **1a4ba074**（⛔ 沒推，等 Tim）：df7acfea 運河全當海（chunks.js）、34a19477 第五輪路橋河口、1a4ba074 合 main（b24a8956）＋ Blockside 指標＋ battle.html。
-  - ⚠ 推之前還是要先把 origin/main 多的那筆（55d25865）用 --no-commit 合進來。
-- 規劃 50 份已抄回共用樹 world/townplans；共用樹 town_bake --check ✓、check_core 四條 ✓、城市報表 ✓、town_check 互疊 0。
-- TASK-1304 認領了、留言「球在 Tim：進遊戲看那一道堤」，狀態 in_progress（commit 用 Refs，沒 Fixes）。
-
-### 等 Tim
-- 問了「要先進遊戲看過再決定推 Blocksail main 嗎？」還沒答。
-- 之前欠的推送：Blocksail a41d42b2/f8534ba2（現在都在 main 裡）、Sculpture c01f68d3/72933090、Senate d77cb3c。
+### ⚠ 醒來先看：背景下載還在跑（compact 不會停它）
+- SoilGrids 全球下載：log `C:/Users/Tim/AppData/Local/Temp/claude/2716a3acd6803927/6ed2b196-34b7-48b1-ad11-c9520d8252e6/scratchpad/soil_dl.log`（尾巴有 `exit=` ⇒ 跑完）。睡前 850/1393 塊、398 MB、34 分鐘。原始檔 `D:/Unity/Blocksail/_cache/soilgrids/{wrb,ph}/`、`tiles.json`、`manifest.json`。
+  - 北緯 80–85° 那一排（wrb_*n80）會 ✗：SoilGrids 只到 84°、舊版檢查太死。**程式已修**（NORTH=84），跑完後 `python -I -X utf8 tools/soil_download.py --dir D:/Unity/Blocksail/_cache/soilgrids` 再跑一次補抓（抓過的跳過）。exit 1 只要是 n80 那排就是這個。
+- worktree：`C:/Users/Tim/AppData/Local/Temp/claude/2716a3acd6803927/6ed2b196-34b7-48b1-ad11-c9520d8252e6/scratchpad/bssoil`，分支 `gura/1324-soil`（從 main e44b4314b 開），**還沒提交**（56 個改動：新檔＋29 份 nature-* 刪掉）。施工場沒開（合併時才開）。TASK-1324 已 claim（in_progress），留言 #1 是容量讀數。
 
 ### 已拍板（醒來不要重問）
-- Tim 這一輪五件：①其他運河都照大運河套海面、堤後不穿透 ②河堤旁的路取消（河堤本身是路）③路穿運河、橋交叉、橋太密合併 ④橋沒有橋洞 ⑤不跨河的橋 ⇒ 都做了。TASK-1304 照他說的「河堤往外 clip 水面」修。
-- 兩個 server 只留一個（他問過），對照組 server 用完就關。
+- 1 km 全球、同氣候格子格線（Tim「1 km 全球 好了」）。
+- 資料 WRB＋pH 全 CC BY（Tim 選）；⛔ GLiM 完整版（©CCGM 授權不明）、⛔ HWSD v2（NC）。海底照 ETOPO 2022（本機 `_cache/etopo2022` 288 張）＋氣候格子推，不用新資料。
+- 陸上土壤與海底底質**合一套、一格一類**；矽質軟泥另一類（`siliceous`，只在海底）。理由：海岸線改了（1303）不用重烘。
+- 廢棄舊土壤範圍格式。
 
-### 查回來很貴的
-- 窄運河鋸齒的真兇：中畫質「淺水變透明」（01_gl.js dep → a 最透 0.4）和岸邊亮線都照 8 m 高度貼圖算水深 ⇒ 6 m rio 被當淺灘。不是地形網格、也不是 discard。用 seaDbg({edge:0}) 對照才分出來。
-- 藏著的窗格：手動 docked 進城時船停在離城 6 km 的錨地，地形／遮罩窗跟著船 ⇒ 改 __game.ships()[0].px/pz 搬到目標附近等 30 s（已寫進記憶 blocksail-town-view-unhide）。
-- Worker 裡的遮罩：攔 w.Worker.prototype.postMessage 讀送進去的資料與回傳的 T（bundle 是一個閉包，拿不到全域變數）。
-- 刪路要照「刪完重烘之後」的規劃再挑一次；河口切開（town_sample.js 改了）之後 v-corte-del-sabion 斷了 ⇒ 拿回 v-raccordo-42（第 4 份）、v-salizada-del-forno（第 5 份）。town_roads_check 判接上比城市報表鬆，最後以報表為準。
-- 讀數：路 2,607→2,331；橋 439→363（交叉 0、太密 0、不跨河 5、跨水沒橋 3，剩的都是割點）；河堤封河口 29→10（剩的多是同一運河兩段的接頭）；住宅 7,379 棟容量 130,001；49 份規劃跟 main 逐字相同。
+### 做好的（worktree 裡）
+- 新：`tools/soil_tiles.cjs`（WRB 5° 1046 塊、pH 10° 347 塊）、`tools/soil_download.py`、`tools/soil_bake.py`（648 塊＋index.js＋overview.bin，`--check`、`--jobs`）、`world/soil.js`（BSW.soilAt/soilNeed、包 W.need）、`tools/soil_load.cjs`、`tools/soil_compare.cjs`（舊土壤區 vs 新格子，`--old D:/Unity/Blocksail --soil <world/soil>`）。
+- 改：areas.js（SOILS 加 siliceous＋`sea` 說明、AREA_TYPES 拿掉 soil、PLACE_KEY 清空、placeAt 的 soil 照格子）、globe.html（drawSoil＋soilLeg＋名字＋查詢框概覽）、town.html、mapgen_worker.js、town_store.js（`#soil`、BSW.soilKey）、town_load／export_chunks／areas_cover（soil_load）、cache.cjs（soil 一筆、SOIL_IN 進 townplans）、.gitignore（world/soil/）、build.sh（soil_bake 步）、world_serve.py AREA_TYPES、nature_extract main 擋（表照讀）、land_expand 土壤段 return、environment_repair 只補 region、credits.js、docs WORLD_FORMAT §24（＋§19 ⛔）、WORLD_TOOLS §5.5（＋§1／5.1／5.3／5.3.1）、SPECIES。
+- 拿掉土壤 18,152 筆：刪 29 份 nature-*（1323 後只剩土壤）、bosporus-1453 手刪一筆。
+- 驗過：單塊 n50e010 烘 8 秒 49 KB；`areas_cover --at`（BLOCKSAIL_SOIL=scratchpad/soiltest）羅馬黏土、拿坡里灣沖積土、亞得里亞海沙土。
 
-### 未做
-- 一年模擬沒跑；撐開的拱沒從側面看過；Tim 截圖那一道破洞的堤沒找到是哪一道；chunk_bake 沒烘（打包產物）。
-- 預設模式的刪細巷現在把河堤算進路網，會多挑 444 條 —— 沒做，沒人要求。
-- 伐木場一年多蓋 ~830 座還沒查。
+### 下一步（順序）
+1. 下載跑完 ⇒ 補抓 n80 那排 ⇒ 看 manifest 沒有 error。
+2. 烘：在 worktree `python -I -X utf8 tools/soil_bake.py --soilgrids D:/Unity/Blocksail/_cache/soilgrids --etopo D:/Unity/Blocksail/_cache/etopo2022 --climate D:/Unity/Blocksail/world/climate --out <worktree>/world/soil --jobs 2`（背景；估 30～40 分）。看陸上／海底比例、規則佔比是否合理（試烘義大利陸上黏土 89%——沒 pH 時；有 pH 後要再看石灰岩）。
+3. 對拍：`node tools/soil_compare.cjs --old D:/Unity/Blocksail --soil <worktree>/world/soil --out <報告>`（main 還有舊土壤區）⇒ 讀數寫進 §24、單上留言（驗收第 3 格）。
+4. 驗收第 4 格（反向對照：舊土壤區畫進格子 ⇒ 規劃不變）還沒做法，可抽 2～3 城。
+5. 地球儀：worktree 起 world_serve（launch.json 只加自己的條目、用完拿掉），勾「土壤」看拉遠／拉近、名字、海底。
+6. 提交（senate cmd commit、Refs TASK-1324）⇒ coding op=start 單獨一個呼叫 ⇒ ff main ⇒ 主樹烘 world/soil ⇒ town_bake 重烘 50 城（約 26 分）⇒ op=end（force、寫讀數）⇒ 砍 worktree（有子模組？這棵沒 init 子模組，應該可以 worktree remove）。
+7. 開場檔：1323 時 Tim「對不上沒問題 我直接看城鎮規畫是否ok就好」⇒ 照同例先不套差異，回報 Tim。
+
+### 未解的線
+- credits.js 沒列 CHELSA（1323、ame 的範圍）——要跟 ame／Tim 說。
+- 推 Blocksail：等 Tim（地球儀氣候區 0c6652df2 也還沒推？Tim 有推過 main 嗎——醒來 `git rev-parse origin/main` 看）。
+- Blockside dev 已推 e55a53a（linux-host 合併）；Blocksail 3ca1217c9 指標。
 
 ### 心境
-這一輪 Tim 一邊看一邊丟了五件，本鯊魚每件都先開對照組再動手。最得意的是鋸齒那一題：三次猜錯（discard、4 m 通道、拱），最後用 edge:0 一刀切開才知道是「透明」不是「沒有」。量具全綠但人看到的是沙，一樣算沒做完。
+今天被 Tim 一路往「更乾淨」推：先要 1 km、又問粗一點、又回 1 km；先分兩層、他一句「同一套呢?」就收成一層——海岸改了不用重烘，這個設計是他點出來的。本鯊魚負責把每一個選項的代價量清楚（容量表、沖積土剩幾成、授權地雷），他負責挑。授權那一關最值得記：付費遊戲，HWSD 再好用也不能碰。
 

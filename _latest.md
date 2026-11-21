@@ -1,7 +1,7 @@
 ---
 type: letter_to_future_self
 actor: Myth
-written_at: 2026-11-21T07:27:56.251Z
+written_at: 2026-11-21T07:52:16.671Z
 written_by_persona: gura
 trigger: cmd_rest
 region: unstated
@@ -17,9 +17,11 @@ locked_at: 2026-11-14T00:16:42.070Z
 
 ## 午休信 —— TASK-1324 全球土壤格子施工中（2026-11-21 下午）
 
-### ⚠ 醒來先看：背景下載還在跑（compact 不會停它）
-- SoilGrids 全球下載：log `C:/Users/Tim/AppData/Local/Temp/claude/2716a3acd6803927/6ed2b196-34b7-48b1-ad11-c9520d8252e6/scratchpad/soil_dl.log`（尾巴有 `exit=` ⇒ 跑完）。睡前 850/1393 塊、398 MB、34 分鐘。原始檔 `D:/Unity/Blocksail/_cache/soilgrids/{wrb,ph}/`、`tiles.json`、`manifest.json`。
-  - 北緯 80–85° 那一排（wrb_*n80）會 ✗：SoilGrids 只到 84°、舊版檢查太死。**程式已修**（NORTH=84），跑完後 `python -I -X utf8 tools/soil_download.py --dir D:/Unity/Blocksail/_cache/soilgrids` 再跑一次補抓（抓過的跳過）。exit 1 只要是 n80 那排就是這個。
+### ✅ 下載完成（第二次午休前更新）
+- SoilGrids 全球**抓齊、驗過**：WRB 1,046 塊 467.0 MB、pH 347 塊 90.2 MB，1393/1393，exit 0（log `scratchpad/soil_dl3.log`）。原始檔 `D:/Unity/Blocksail/_cache/soilgrids/{wrb,ph}/`、`tiles.json`、`manifest.json`。第一趟 2,856 秒。
+  - WRB 南北邊界：SoilGrids 只到北緯 84°、南緯 56° ⇒ `soil_download.py` 只對 WRB 放寬外框檢查（NORTH／SOUTH）。
+  - 🩸 自曝：第一版放寬也套到 pH（WCS 1.0 伺服器照框補滿、本來就對）⇒ 失敗分支把 26 塊好的 pH **刪掉**再重抓失敗；改成只放寬 WRB 後補回，大小跟原本相同。教訓：失敗分支會刪檔的檢查，改條件前先想清楚它套到誰。
+- **下一步從「烘」開始**（下面清單第 2 步）。
 - worktree：`C:/Users/Tim/AppData/Local/Temp/claude/2716a3acd6803927/6ed2b196-34b7-48b1-ad11-c9520d8252e6/scratchpad/bssoil`，分支 `gura/1324-soil`（從 main e44b4314b 開），**還沒提交**（56 個改動：新檔＋29 份 nature-* 刪掉）。施工場沒開（合併時才開）。TASK-1324 已 claim（in_progress），留言 #1 是容量讀數。
 
 ### 已拍板（醒來不要重問）
@@ -35,7 +37,7 @@ locked_at: 2026-11-14T00:16:42.070Z
 - 驗過：單塊 n50e010 烘 8 秒 49 KB；`areas_cover --at`（BLOCKSAIL_SOIL=scratchpad/soiltest）羅馬黏土、拿坡里灣沖積土、亞得里亞海沙土。
 
 ### 下一步（順序）
-1. 下載跑完 ⇒ 補抓 n80 那排 ⇒ 看 manifest 沒有 error。
+1. ~~下載跑完 ⇒ 補抓 n80 那排~~ ✅ 做完了。
 2. 烘：在 worktree `python -I -X utf8 tools/soil_bake.py --soilgrids D:/Unity/Blocksail/_cache/soilgrids --etopo D:/Unity/Blocksail/_cache/etopo2022 --climate D:/Unity/Blocksail/world/climate --out <worktree>/world/soil --jobs 2`（背景；估 30～40 分）。看陸上／海底比例、規則佔比是否合理（試烘義大利陸上黏土 89%——沒 pH 時；有 pH 後要再看石灰岩）。
 3. 對拍：`node tools/soil_compare.cjs --old D:/Unity/Blocksail --soil <worktree>/world/soil --out <報告>`（main 還有舊土壤區）⇒ 讀數寫進 §24、單上留言（驗收第 3 格）。
 4. 驗收第 4 格（反向對照：舊土壤區畫進格子 ⇒ 規劃不變）還沒做法，可抽 2～3 城。

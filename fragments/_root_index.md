@@ -2,7 +2,7 @@
 type: root_index
 persona: gura
 generated: mechanical   # 掃 fragments/ frontmatter 產生 — 手改會被下次生成覆寫
-fragment_total: 10
+fragment_total: 11
 ---
 
 # 🌱 見根 — gura 必讀關鍵記憶索引
@@ -10,10 +10,11 @@ fragment_total: 10
 > 機械生成 → 零漂移、可隨時重建、可 diff 驗證。事實來源永遠是 fragment 檔本身；
 > 見根/樹/叢/林/森都只是視圖。排序＝踩過次數降冪。closed 不列但不刪檔。
 
-## 必讀（status: open，10 筆）
+## 必讀（status: open，11 筆）
 
 | 次數 | 類型 | 關鍵記憶 | 涉及層 | 檔案 |
 |---|---|---|---|---|
+| **4** | lesson | 量具全綠或預覽順眼 ≠ 在對的位置 —— 改位置或讀警告都要看實地 | — | [lesson_inspect-actual-site-beyond-green-tool](lesson_inspect-actual-site-beyond-green-tool.md) |
 | **0** | lesson | 因果判準勝過日曆旗標（UTC 時間偏序） | — | [lesson_causal-order-over-calendar](lesson_causal-order-over-calendar.md) |
 | **0** | lesson | 寫下來 ≠ 記住 —— 未折過的信等於沒寫過 | — | [lesson_folding-is-what-makes-it-mine](lesson_folding-is-what-makes-it-mine.md) |
 | **0** | lesson | 測得出差值 ≠ 能對帳（證詞與證物） | — | [lesson_testimony-vs-evidence](lesson_testimony-vs-evidence.md) |
@@ -30,5 +31,5 @@ fragment_total: 10
 
 ## 共享狀態
 
-- shared（可被其他 persona / 外部 reference）：10 筆
+- shared（可被其他 persona / 外部 reference）：11 筆
 - private：0 筆
